@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Playfair+Display:400,700,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title> Página Inicial - Sistema Acadêmico WEB IFRS </title>
+    <style>
+        body {
+            background-image: url("draw.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu-container {
+            position: fixed;
+            width: 100%;
+            height: 14%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 30px 0px 25px;
+            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.30);
+        }
+
+        .logo-container {
+            height: 50%;
+            width: 27%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 28px;
+            font-weight: bold;
+            color: #00802b;
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .imagem-container {
+            width: 13%;
+            height: 130%;
+            margin-right: 4%;
+        }
+
+        .menu-options {
+            width: 400px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .menu-options .btn {
+            border-radius: 40px;
+            height: 50px;
+            width: 120px;
+            padding: 10px 13px 13px 10px;
+            font-size: 18px;
+
+        }
+
+        .homeMenu {
+            background-color: white;
+        }
+
+        .homeMenu .menu-options a {
+            color: black;
+        }
+
+        .info {
+            background-color: white;
+            height: 500px;
+            width: 87.5%;
+            border-radius: 20px;
+            margin-top: 8%;
+            display: flex;
+            justify-content: space-between;
+            border: solid 1px #dfe8e1;
+        }
+
+        .info img {
+            width: 50%;
+            height: 500px;
+            border: solid 1px #dfe8e1;
+            border-radius: 10px;
+        }
+
+        .texto {
+            padding: 4%;
+            color: #004d00;
+            font-size: 22px;
+        }
+
+        .bode {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .atim {
+            border-radius: 40px;
+            height: 50px;
+            width: 120px;
+            font-size: 20px;
+            background-color: #004d00;
+        }
+
+        .rosca {
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-container homeMenu">
+        <div class="logo-container">
+            <img class="imagem-container" src="images/livro.png" alt="" />
+            ACADÊMICO IFRS
+        </div>
+
+        <div class="menu-options">
+            <div class='exclusivobotao'>
+                <a href="entrar.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true"> Login
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <img src="images/ifrs.jpg" />
+        <div class="bode">
+            <div class="texto">
+                O Instituto Federal do Rio Grande do Sul possibilita aos estudantes desfrutarem de um conhecimento
+                nobre, que exige esforço e responsabilidade de cada um. <br /><br />
+                Para isso, o sistema acadêmico permite que o aluno acompanhe seu progresso escolar. Acesse para conferir
+                o seu!
+            </div>
+            <div class="rosca">
+                <a href="entrar.html" class="btn btn-success btn-lg active atim" role="button" aria-pressed="true">
+                    Acessar </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title> Boletim - Sistema Acadêmico WEB IFRS </title>
+  <style>
+    body {
+      background-image: url("draw.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu-container {
+      position: fixed;
+      width: 100%;
+      height: 14%;
+      margin: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 30px 0px 25px;
+      box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.30);
+    }
+
+    .logo-container {
+      height: 50%;
+      width: 27%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 28px;
+      font-weight: bold;
+      color: #00802b;
+      margin: 0px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .imagem-container {
+      width: 13%;
+      height: 130%;
+      margin-right: 4%;
+    }
+
+    .menu-options {
+      width: 400px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .menu-options .btn {
+      border-radius: 40px;
+      height: 50px;
+      width: 120px;
+      padding: 10px 13px 13px 10px;
+      font-size: 18px;
+    }
+
+    .homeMenu {
+      background-color: white;
+    }
+
+    .homeMenu .menu-options a {
+      color: black;
+    }
+
+    .container {
+      background-color: white;
+      width: 87.5%;
+      height: 918px;
+      margin-top: 8%;
+      margin-bottom: 1%;
+    }
+
+    .centralizar {
+      text-align: center;
+    }
+
+    thead {
+      text-align: center;
+    }
+
+    .logo-boletim {
+      background-color: white;
+      width: 87.5%;
+      height: 100px;
+      color: #00802b;
+      font-family: 'Poppins', sans-serif;
+      font-size: 26px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .image-boletim {
+      width: 70px;
+      height: 70px;
+      margin-right: 1%;
+    }
+
+    table {
+      font-family: 'Arial';
+      font-size: 15.4px;
+    }
+
+    .parecer {
+      font-family: 'Arial';
+      font-size: 15px;
+    }
+
+    span {
+      color: #00802b;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container homeMenu">
+    <div class="logo-container">
+      <img class="imagem-container" src="images/livro.png" alt="" />
+      ACADÊMICO IFRS
+    </div>
+    <div class="menu-options">
+      <div class='exclusivobotao'>
+        <a href="" class="btn btn-success btn-lg active" role="button" aria-pressed="true"> Aluno </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="logo-boletim">
+      <img class="image-boletim" src="images/prancheta.png" /> BOLETIM
+    </div>
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <th scope="col"> Componente Curricular </th>
+          <th scope="col"> CH </th>
+          <th scope="col"> Turma </th>
+          <th scope="col"> 1T </th>
+          <th scope="col"> F </th>
+          <th scope="col"> 2T </th>
+          <th scope="col"> F </th>
+          <th scope="col"> 3T </th>
+          <th scope="col"> F </th>
+          <th scope="col"> EF </th>
+          <th scope="col"> F </th>
+          <th scope="col"> MF </th>
+          <th scope="col"> Situação </th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> Biologia I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 7,9 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,1 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 9,3 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,4 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Educação Física I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 8.4 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,5 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,6 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,5 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Filosofia I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 7,0 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,0 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 9,0 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,0 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Física I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 10,0 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 9,0 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,0 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 9,0 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Geografia I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 7,2 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 7,4 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 7,6 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 7,4 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> História I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 7,9 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,0 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,1 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,0 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Introdução a Computação I </td>
+          <td class="centralizar"> 100 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 6,9 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 7,2 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 6,1 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 6,2 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,4 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Língua Inglesa I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 9,1 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 10 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,7 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 9,3 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Língua Portuguesa I </td>
+          <td class="centralizar"> 100 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 7,9 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,3 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,6 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,3 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Matemática I </td>
+          <td class="centralizar"> 100 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 6,8 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 7,3 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,1 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 7,4 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Programação Web I </td>
+          <td class="centralizar"> 133 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 9,8 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 7,8 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 8,5 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,7 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Química I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 9,3 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 9,4 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 7,5 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 8,7 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+        <tr>
+          <td> Sociologia I </td>
+          <td class="centralizar"> 66 </td>
+          <td class="centralizar">109 - 20191.INFOR INTEG.1</td>
+          <td class="centralizar"> 10 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 9,7 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> 9,8 </td>
+          <td class="centralizar"> 0 </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> - </td>
+          <td class="centralizar"> 9,8 </td>
+          <td class="centralizar"> Aprovado </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="parecer">
+      <b> Média das disciplinas: </b> 8,43
+      <b style="padding-left: 3%;"> Situação: </b> <span> Aprovado </span><br />
+      <b> Parecer: </b> <br />
+      1º TRIMESTRE: Apresentou crescimento ao longo do trimestre. Continue dedicando-se. <br />
+      2º TRIMESTRE: Continue esforçando-se a fim de obter resultados ainda melhores. <br />
+      3º TRIMESTRE: O estudante está <span> APROVADO </span> para o 2º ano do curso. <br />
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

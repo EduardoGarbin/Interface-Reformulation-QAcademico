@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title> Acesse! - Sistema Acadêmico WEB IFRS </title>
+    <style>
+        body {
+            background-image: url("draw.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu-container {
+            position: fixed;
+            width: 100%;
+            height: 14%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 30px 0px 25px;
+            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.30);
+        }
+
+        .logo-container {
+            height: 50%;
+            width: 27%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 28px;
+            font-weight: bold;
+            color: #00802b;
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .imagem-container {
+            width: 13%;
+            height: 130%;
+            margin-right: 4%;
+        }
+
+        .menu-options {
+            width: 400px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .menu-options .btn {
+            border-radius: 40px;
+            height: 50px;
+            width: 120px;
+            padding: 10px 13px 13px 10px;
+            font-size: 18px;
+        }
+
+        .homeMenu {
+            background-color: white;
+        }
+
+        .homeMenu .menu-options a {
+            color: black;
+        }
+
+        .container {
+            width: 87.5%;
+            height: 500px;
+            background-color: white;
+            margin-top: 8%;
+            margin-bottom: 1%;
+            font-family: 'Arial';
+            display: flex;
+            flex-direction: row;
+        }
+
+        .image-perfil {
+            width: 140px;
+            height: 140px;
+        }
+
+        .perfil {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            padding-top: 8%;
+            border-right: solid 1px #00802b;
+        }
+
+        .bvindo {
+            padding: 25px;
+            font-size: 30px;
+            color: #00802b;
+        }
+
+        .acesso {
+            width: 50%;
+            height: 100%;
+        }
+
+        .escolhas {
+            text-align: center;
+            color: #00802b;
+            font-size: 32px;
+            padding-top: 50px;
+        }
+
+        .card {
+            height: 180px;
+            margin: 30px;
+            align-items: center;
+        }
+
+        .image-card {
+            width: 200px;
+            height: 150px;
+        }
+
+        .card-img-top {
+            width: 100px;
+            height: 100px;
+        }
+
+        .cartaocredito {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 65%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container homeMenu">
+        <div class="logo-container">
+            <img class="imagem-container" src="images/livro.png" alt="" />
+            ACADÊMICO IFRS
+        </div>
+        <div class="menu-options">
+            <div class='exclusivobotao'>
+                <a href="" class="btn btn-success btn-lg active" role="button" aria-pressed="true"> Aluno </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="perfil">
+            <div class="bvindo">
+                Bem-vindo, Aluno!
+            </div>
+            <div>
+                <img class="image-perfil" src="images/do-utilizador.png" />
+            </div>
+        </div>
+        <div class="acesso">
+            <div class="escolhas">
+                O que você deseja acessar?
+            </div>
+            <div class="cartaocredito">
+                <div class="card" style="width: 7.5rem;">
+                    <img class="card-img-top" src="images/prancheta.png" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="boletim.html" class="btn btn-primary"> Boletim </a>
+                    </div>
+                </div>
+                <div class="card" style="width: 7.5rem;">
+                    <img class="card-img-top" src="images/caderno.png" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="diario.html" class="btn btn-primary"> Diários </a>
+                    </div>
+                </div>
+                <div class="card" style="width: 7.5rem;">
+                    <img class="card-img-top" src="images/papel.png" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="materiais.html" class="btn btn-primary"> Materiais </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
